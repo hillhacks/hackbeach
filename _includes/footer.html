@@ -1,0 +1,28 @@
+<footer class="site-footer footer">
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-md-12 ">
+        <ul class="contact-list">
+          <!-- <li>{{ site.title | escape }}</li> -->
+          {% if site.email %}
+          <li><strong>mail to:</strong><a href="mailto:{{ site.email }}"> {{ site.email }}</a></li>
+          {% endif %}
+          <li><a href="/about/">About</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="/faq/">FAQ</a></li>
+          <li><a href="/pads/">Pads</a></li>
+          <li>
+            {% include icon-github.html label="source" %}
+          </li>
+          <li>
+            {% include icon-twitter.html  username=site.twitter_username %}
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</footer>
+<script type="text/javascript" src="{{"/js/bootstrap-native.min.js" | prepend: site.baseurl}}"></script>
+<script type="text/javascript" src="{{"/js/lightbox.min.js" | prepend: site.baseurl}}"></script>
+<script type="text/javascript" src="{{"/js/lightbox.js" | prepend: site.baseurl}}"></script>

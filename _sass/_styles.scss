@@ -1,0 +1,326 @@
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/* navbar */
+.hackbeach-nav{
+  background-color: $nav-background-color;
+  /* border-color: $nav-border-color; */
+  font-family: $base-font-family;
+  font-size: 16px;
+
+  .open a {
+    background-color: #f4f4f4 !important;
+  }
+
+  li a {
+    color: $nav-text-color !important;
+    &:hover{
+      color: $nav-link-color !important;
+    }
+  }
+
+  .navbar-brand {
+    color: $nav-text-color;
+    font-size: 24px;
+    font-weight: 700;
+    &:hover {
+      color: $nav-text-color;
+    }
+  }
+
+  .navbar-cta {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+
+  .cta-2-xs{
+    font-family: $base-font-family;
+    background: none;
+    border-radius: 4px;
+    border-color: #65b0d1;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: #65b0d1;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    &:hover {
+      background-color: #65b0d1;
+      border-color: #65b0d1;
+      color: #ffffff;
+    }
+    a{
+      color: #ffffff;
+    }
+  }
+  .dropdown-menu{
+    font-size: 16px;
+    background-color: #f4f4f4;
+    & a:hover {
+        color: $nav-link-color !important;
+    }
+  }
+}
+
+.blue-shadow {
+  text-shadow: -2px -3px 0px #60deef;
+}
+
+.orange-shadow {
+  text-shadow: 2px 3px 0px #e55438;
+}
+
+/* .......... */
+body{
+  background-color: #f6f9fc;
+}
+.font-size-md{
+  font-size: 18px !important;
+  line-height: 28px;
+}
+.font-size-lg{
+  font-size: 22px;
+  line-height: 34px;
+}
+.container-fluid{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.header{
+  position: relative;
+  width: 100%;
+  height: 570px;
+  min-height: auto;
+  text-align: center;
+  color: #fff;
+  background-image: url($site_baseurl + "/assets/images/hackbeach-banner.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding-top: 90px;
+}
+
+.header{
+  h1{
+    font-family: monospace;
+    font-weight: 500;
+    color: #fcfcfc;
+    font-size: 64px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+  }
+  h3{
+    font-family: $base-font-family;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FCDB02;
+    letter-spacing: 1.79px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+  }
+  a{
+    text-decoration: none;
+  }
+
+  .logo {
+    background-image: url($site_baseurl +  "/assets/images/hackbeach-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 160px;
+    margin-top: -10px;
+  }
+}
+
+.cta-0{
+  font-family: $base-font-family;
+  background-color: #63c3d5;
+  color: #fff !important;
+  border-radius: 10px;
+  border-color: #63c3d5;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none !important;
+  &:hover {
+    background-color: #4AA9BC;
+    border-color: #4AA9BC;
+  }
+}
+
+.cta-1{
+  font-family: $base-font-family;
+  background: #7cb3a0;
+  color: #fff !important;
+  border-radius: 4px;
+  border-color: #7cb3a0;
+  margin-bottom: 20px;
+  padding: 15px;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  &:hover {
+    background-color: #5F9783;
+    border-color: #5F9783;
+  }
+}
+
+.cta-2{
+  font-family: $base-font-family;
+  background: #D563A0;
+  border-radius: 10px;
+  border-color: #D563A0;
+  margin-top: 20px;
+  padding: 15px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  &:hover {
+    background-color: #BC4E89;
+    border-color: #BC4E89;
+  }
+}
+
+.section-white{
+  background-color: #ffffff;
+  margin-top: 54px;
+  padding: 25px;
+}
+
+.section-white{
+  h2{
+    font-family: 'Francois One', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #4E4E4E;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+  }
+  h3{
+    &:target {
+        padding-top: 60px;
+    }
+    font-family: 'Francois One', sans-serif;
+    font-weight: 700;
+    color: #4E4E4E;
+    text-transform: uppercase;
+    margin-top: 2ex;
+  }
+  h4{
+    font-family: 'Francois One', sans-serif;
+    font-weight: 700;
+    color: #4E4E4E;
+    margin-top: 2ex;
+  }
+  p{
+    font-family: $base-font-family;
+    color: #4E4E4E;
+    letter-spacing: 1.65px;
+  }
+  a{
+    font-family: $base-font-family;
+    color: #4AA9BC;
+    letter-spacing: 1.65px;
+    text-decoration: underline;
+
+  }
+  dl{
+    font-family: $base-font-family;
+    color: #4E4E4E;
+    letter-spacing: 1.65px;
+    margin-top: 20px;
+  }
+  ol{
+    font-family: $base-font-family;
+    color: #4E4E4E;
+    letter-spacing: 1.65px;
+  }
+  ul{
+    font-family: $base-font-family;
+    color: #4E4E4E;
+    letter-spacing: 1.65px;
+  }
+  table{
+    font-family: $base-font-family;
+    color: #4E4E4E;
+    letter-spacing: 1.65px;
+    margin-top: 20px;
+  }
+}
+
+.underline{
+  width: 100px;
+  height: 6px;
+  background-color: #f3da34;
+}
+
+.homepage-gallery{
+  .gallery-img{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+/* Don't underline footnotes */
+a.footnote {
+  text-decoration: none !important;
+}
+a.reversefootnote {
+  text-decoration: none !important;
+}
+
+/* base styles */
+.mt20{
+  margin-top: 20px;
+}
+
+.mt100{
+  margin-top: 100px;
+}
+.mt50{
+  margin-top: 50px;
+}
+
+.mb100{
+  margin-bottom: 100px;
+}
+
+.no-padding{
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+
+.text-decor-none{
+  text-decoration: none !important;
+}
+
+.footer a{
+  color: $nav-text-color;
+  &:hover{
+    color: $nav-text-color;
+  }
+}
+
+.site-footer{
+  background-color: #f4f4f4;
+}
+
+.contact-list{
+  list-style: none;
+  text-align: center;
+  li{
+    display: inline;
+    padding: 10px;
+  }
+}
+
+/* .no-margin{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+} */
