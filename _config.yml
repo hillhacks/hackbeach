@@ -7,7 +7,7 @@
 
 # Site settings
 title: hackbeach
-email: mail@hackbeach.in
+email: hackbeach@hackbeach.in
 description: >
   hackbeach is held in the lap of the stunning Dhauladhar Himalayas every
   summer.  People from different places, walks of life and lines of thought come
@@ -21,7 +21,7 @@ keywords: >
   himachal, technology, nature, ecology, hardware, software, india, data,
   security, futurism, architecture, freedom, art, hackbeach, himachal pradesh
 baseurl: ""
-url: "https://.in"
+url: "https://hackbeach.in"
 twitter_username: "@hackbeach"
 github_username: ""
 schedule: https://osem..in/conferences/2017/schedule

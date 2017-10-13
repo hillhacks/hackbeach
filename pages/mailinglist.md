@@ -4,16 +4,16 @@ title: Mailing list
 permalink: /mailinglist/
 ---
 
-The hillhackers mailing list is our primary communication channel.  Traffic is
+The hackbeach mailing list is our primary communication channel.  Traffic is
 moderate throughout the year but gets busier as we get closer to the event.
 
 To post a message to all the list members, send email to
-[hillhackers@lists..in](mailto:hillhackers@lists..in).
+[hackbeach@lists.hackbeach.in](mailto:hackbeach@lists.hackbeach.in.).
 
 
 You must subscribe before you can post.
 
-<form class="form-inline" method="POST" action="https://lists..in/mailman/subscribe/hillhackers">
+<form class="form-inline" method="POST" action="https://lists.hackbeach.in/mailman/subscribe/hackbeach">
   <div class="form-group">
     <label for="email" class="sr-only">Your email address</label>
     <input type="email" class="form-control" name="email" placeholder="Your email address" />
@@ -26,7 +26,7 @@ You must subscribe before you can post.
 </form>
 <small>[More information about the mailing list][ml]<small>
 
-[ml]: https://lists..in/mailman/listinfo/hillhackers/
+[ml]: https://lists.hackbeach.in/mailman/listinfo/hackbeach
 
 ### Mailing list guidelines
 

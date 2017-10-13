@@ -1,13 +1,13 @@
-#  website - https://.in/
+#  website - https://hackbeach.in/
 
-Source code for the  website.
+Source code for the hackbeach website.
 
 ## Compiling
 
 You need to have [Jekyll](http://jekyllrb.com/) installed.  Follow its
 installation instructions for your platform.
 
-Compile the site with ``jekyll b``. You can have a server running
+Compile the site with ``jekyll build``. You can have a server running
 using `jekyll serve [--watch] [[--incremental]` with the optional
 `--watch` flag to automatically regenerate the site on file saves
 and the `--incremental` flag to only generate what is needed.

@@ -25,11 +25,6 @@ the mailing list.
   We have some to share, but never enough.
 ^
 
-...my trekking gear?
-: Yes, please!  Bring your shoes, backpacks, bottles, and all that stuff, and go
-  for as many treks and walks you can!
-^
-
 ...my family?
 : You are welcome to bring your husband, kids, wife, parents, cousins, friends.
   Please let us know the details in advance, so we can help to find appropriate
@@ -46,13 +41,13 @@ the mailing list.
 
 When can I come?
 : The unconference, school programme and set-up for the main conference all
-  begin on 18<sup>th</sup> May 2018.  We have the venue until 31<sup>st</sup>
-  May 2018.  If you would like to come earlier or stay later, you should make
+  begin on 23<sup>rd</sup> Nov 2017.  We have the venue until 2<sup>nd</sup>
+  Dec 2017.  If you would like to come earlier or stay later, you should make
   your own arrangements.  Contact the [mailing list][ml] for pointers.
 ^
 
 When is the main conference?
-: 24-27 May 2018.
+: 23 Nov to 2nd Dec 2017.
 ^
 
 How do I get there?
@@ -61,12 +56,8 @@ How do I get there?
 
 ### Managing expectations
 
-How cold will it be up there?
-: In general it will be around 25°C during the day and around 15°C at night.
-  Note that we are around 2000 metres above mean sea level, temperatures often
-  fall below 10°C. On the other hand they have been known to rise above to 30°C
-  too.  Weather varies, but it isn't monsoon season, so it (probably) won't rain
-  too much.
+How will be the weather?
+: TODO
 ^
 
 What about lodging and food?
@@ -82,10 +73,7 @@ I am a foreign national.  Do I need a Protected Area Permit (PAP)?
 I am concerned that I am too young / too old / an introvert / a single female /
 a single male / a robot / something totally different.
 : Read our note on providing a safe and friendly place for everyone.  In
-  previous years, we had all age groups around, and nearly 50% of our core team
-  are female!  <!-- XXX: really? -->  As we are surrounded by the mountains, you
-  will always find enough space for yourself if needed.  You have found us, that
-  means you are in the right place, please feel welcome!
+  previous years, we had all age groups around.
 ^
 
 My family is concerned that this will be way too dangerous!
@@ -111,11 +99,12 @@ Types of financial contribution
 
 What does that mean?
 : We have four levels of contributions. Please choose the one that suits your budget.
-
   * Base: can be 0, if you cannot afford otherwise
   * Reasonable: covers basic costs of food and lodging
   * Nice: all costs covered, including infrastructure and tools
   * Supporter: you support others that cannot afford their travel, stay and food
+
+We are expected to pay 500 INR/person/day for the venue.
 ^
 
 [ml]: {% link pages/mailinglist.md %}

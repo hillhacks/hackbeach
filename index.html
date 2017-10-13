@@ -24,7 +24,7 @@ permalink: /
                 <div class="col-md-12 no-padding mt20">
                     <div class="row">
                     {% for num in (1..9) %}
-                        {% capture image_href %}{{site.baseurl}}/assets/images/img-{{num}}.png{% endcapture %}
+                        {% capture image_href %}{{site.baseurl}}/assets/images/img-{{num}}.jpg{% endcapture %}
                         {% include lightbox-image.html href=image_href %}
                     {% endfor %}
                     </div>
