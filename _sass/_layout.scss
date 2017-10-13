@@ -179,6 +179,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+
 }
 
 .page-heading {
@@ -228,7 +229,7 @@
 
     h2 {
         font-size: 32px;
-
+        margin-top: 40px;
         @include media-query($on-laptop) {
             font-size: 28px;
         }
