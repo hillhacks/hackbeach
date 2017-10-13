@@ -333,7 +333,8 @@ pre {
 .post-content {
   margin-bottom: 30px; }
   .post-content h2 {
-    font-size: 32px; }
+    font-size: 32px;
+    margin-top: 40px; }
     @media screen and (max-width: 800px) {
       .post-content h2 {
         font-size: 28px; } }
@@ -464,7 +465,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   background-color: #63c3d5;
   color: #fff !important;
-  border-radius: 10px;
+  border-radius: 5px;
   border-color: #63c3d5;
   -webkit-transition-duration: 0.4s;
   /* Safari */
