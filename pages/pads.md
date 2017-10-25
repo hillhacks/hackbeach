@@ -11,9 +11,9 @@ to hillhackers on the venue. We have the following pads listed:
 ### 2017
 
 {% for pad in site.data.pads['2017'] %}
-- [{{pad[0]}}](https://pads..in/{{pad[1]}})
+- [{{pad[0]}}](https://pads.in/{{pad[1]}})
 {% endfor %}
 
 You can add more pads by editing [this file][pads.yml] on GitHub.
 
-[pads.yml]: https://github.com//website/blob/master/_data/pads.yml
+[pads.yml]: https://github.com/hillhacks/hackbeach/blob/gh-pages/_data/pads.yml
