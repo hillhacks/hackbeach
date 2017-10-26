@@ -15,3 +15,7 @@ You'll see a Bob Marley wall painting.
 If you don't see Bob, you haven't walked enough.
 
 Welcome to Manju's Place. Call him up at [+91-98861-90282](tel:+919886190282).
+
+- *Co-ordinates: 14.547528, 74.312194*.
+- Google Maps: <https://goo.gl/maps/szCEdEoVg792>
+- OpenStreetMap: <https://www.openstreetmap.org/?mlat=14.547528&mlon=74.312194&zoom=20>
